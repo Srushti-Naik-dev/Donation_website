@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate-NGO</title>
+    <link rel="stylesheet" href="style6.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <div class="main">
+            <nav>
+                <img src="img/1.png" alt="aan" class="logo">
+                
+                <ul>
+                    <li><a href="index.html" id="hm"><i class='bx bxs-home'></i>Home</a></li>
+                    <li><a href="about.html" id="about"><i class='bx bxs-user'></i>About</a>
+                    </li>
+                    <li><a href="#" id="getIn"><i class='bx bxs-log-in'></i>Get involved</a>
+                        <div class="sub-nav">
+                            <ul>
+                                <li><a href="login.html" id="lin">Login</a></li>
+                                <li><a href="register.html" id="register">Register</a></li>
+                            
+                            </ul>
+                        </div></li>
+                   <li><a href="#" id="don"><i class='bx bxs-donate-heart'></i>Donate</a>
+                    <div class="sub-nav">
+                        <ul>
+                            <li><a href="donateO.html" id="orphan">Orphanage</a>
+                            <li><a href="donateN.html" id="ngoo">NGO</a></li>
+                            
+                        </ul>
+                    </div></li>
+                   <li><a href="contact.html" id="cont"><i class='bx bxs-phone'></i>Contact</a>
+                </li>
+                </ul>
+            </nav>
+            <section class="donateN">
+                <div class="wrapper" align="center">
+                    <form action="donateN.php" method="POST">
+                        <h1 align="center">Donate-NGO</h1>
+                        <br>
+                        <div class="input-area">
+                        <div class="input-box" align="center">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Enter First Name" name="fname" required>
+                            
+                        </div>
+                        <div class="input-box" align="center">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter Last Name" name="lname" required>
+                            
+                        </div>
+                        <div class="input-box" align="center">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="Enter Your Email" name="email" required>
+                            
+                        </div>
+                    </div>
+                    <div class="input-area">
+                        <div class="input-box" align="center">
+                            <label>Phone Number</label>
+                            <input type="text" placeholder="Enter Phone Number" name="phone" required>
+                            
+                        </div>
+                        <div class="input-box" align="center">
+                            <label>Alternate Number</label>
+                            <input type="text" placeholder="Enter Alternate Number" name="alphone" required>
+                            
+                        </div>
+                        <div class="input-box" align="center">
+                        <label>Street Address</label>
+                            <input type="text" placeholder="Enter your Address" name="address" required>
+                            
+                        </div>
+                    </div>
+                    <div class="input-area">
+                        <div class="input-box" align="center">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter Your State" name="state" required>
+                            
+                        </div>
+                        <div class="input-box" align="center">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter Your District" name="district" required>
+                            
+                        </div>
+                        <div class="input-box" align="center">
+                            <label>City</label>
+                            <input type="text" placeholder="Enter Your City" name="city" required>
+                            
+                        </div>
+                    </div>
+                    <div class="input-area">
+                            
+                        <div class="input-box" align="center">
+                            <label>Type of Donation</label>
+                            <select name="typeofdonation">
+                                <option value="Food">Food</option>
+                                <option value="Clothes">Clothes</option>
+                                <option value="Books">Books</option>
+                                <option value="Sponsor Healthcare">Sponsor Healthcare</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="input-box" align="center">
+                            <label>NGO organization</label>
+                            <select name="nongo">
+                                <option value="Adarsha">Adarsha, Moodbidri, Mangalore</option>
+                                <option value="Riya">Riya Foundation,  Kulshekar, Mangalore</option>
+                                <option value="Ashika">Ashika, Mangaladevi, Mangalore</option>
+                                <option value="Chiranthana">Chiranthana Charitable Trust, Surathkal</option>
+                                <option value="Sevadeep">Sevadeep,Nagar Road, Pune</option>
+                                <option value="Sahaya">Sahaya Trust,Maratikoppa, Sirsi</option>
+                            </select>
+                            
+                        </div>
+                    </div>
+                    
+                
+                        <button type="submit" class="btn">Submit</button> 
+                    </form>
+                </div>
+            </section> 
+        </div>
+            <section id="blank">
+
+            </section> 
+        <!-- <script>
+            function certificate(){
+                window.location.assign("certificate.html");
+            }
+        </script> -->
+    <footer>
+        <div class="wrapper-1">
+            <div class="footer-center">
+                <h3>Contact Us</h3>
+                <p>Email:info@daandonation.com</p>
+                <p>Phone:+91 00000 00000</p>
+                <p>Message</p>
+            </div>
+            <div class="footer-center">
+                <h3>Quick links</h3>
+                <ul class="list">
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Get Involved</li>
+                    <li>Donate</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-center">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+            <li><a href=""><box-icon type='logo' name='facebook-circle'></box-icon></a></li>
+            <li><a href=""><box-icon type='logo' name='instagram'></box-icon></a></li>
+            <li><a href=""><box-icon type='logo' name='twitter'></box-icon></a></li>
+            <li><a href=""><box-icon type='logo' name='linkedin-square'></box-icon></a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&#169:2024 daandonation . All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

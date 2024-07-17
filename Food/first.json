@@ -1,0 +1,12 @@
+{
+    "name":"srushti",
+    "score":122.45,
+    "isgood":true,
+    "license":null,
+    "list":["butter","Bread","food"],
+    "myObj":{
+        "name":"Aditya",
+        "marks":34,
+        "list2":["Sugar","Milk",{"a":false}]
+    }
+}

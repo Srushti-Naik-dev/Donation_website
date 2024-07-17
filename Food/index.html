@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daan-Donation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <div class="main">
+            <nav>
+                <img src="img/1.png" alt="aan" class="logo">
+                
+                <ul>
+                    <li><a href="index.html" id="hm"><i class='bx bxs-home'></i>Home</a></li>
+                    <li><a href="about.html" id="about"><i class='bx bxs-user'></i>About</a>
+                    </li>
+                    <li><a href="#" id="getIn"><i class='bx bxs-log-in'></i>Get involved</a>
+                        <div class="sub-nav">
+                            <ul>
+                                <li><a href="login.html" id="lin">Login</a></li>
+                                <li><a href="register.html" id="register">Register</a></li>
+                            
+                            </ul>
+                        </div></li>
+                   <li><a href="#" id="don"><i class='bx bxs-donate-heart'></i>Donate</a>
+                    <div class="sub-nav">
+                        <ul>
+                            <li><a href="donateO.html" id="orphan">Orphanage</a>
+                            <li><a href="donateN.html" id="ngoo">NGO</a></li>
+                            
+                        </ul>
+                    </div></li>
+                   <li><a href="contact.html" id="cont"><i class='bx bxs-phone'></i>Contact</a>
+                </li>
+                </ul>
+            </nav>
+            <section id="home">
+                <img src="img/donation.jpg" alt="">
+                <div class="content">
+                    <div class="box">
+                            <h3>दान<br>Donation</h3>
+                            <p class="center">
+                                Donation is a gift given by physical or legal person, typically for charitable purpose
+                            and/or to benefit a cause.It's not the amount that matters but the meaning behind your donation.</p>
+                                <button id="donate" onclick="login()">Donate</button>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <h1 class="head">Why choose us?</h1>
+                <div class="container">
+                    <video autoplay loop muted plays-inline class="backvideo">
+                        <source src="img/food1.mp4" type="video/mp4">
+        
+                    </video>
+                        <div class="box1">
+                            <h3>दान<br>Donation</h3>
+                            <p>Trusted Organization</p>
+                            <p>Worlwide Leaders</p>
+                            <p>24/7 Available</p>
+                            <p>Non-profitable Service</p>
+                            <p>Friendly Nature</p>
+                            <div class="button">
+                                <button id="read" onclick="about()">Read More..</button>
+                            </div>
+                    </div>
+                </div>
+        </section>
+        
+    <section id="vision">
+        <h1>Vision</h1>
+        <div class="contain">
+            <div class="box2">
+              <img src="img/2D.png" alt="">
+            </div>
+            <div class="box2">
+                <img src="img/2B.png" alt="">
+              </div>
+             <div class="box2">
+                <img src="img/2C.png" alt="">
+              </div>
+            <div class="box2">
+                <img src="img/2A.png" alt="">
+              </div>
+        </div> 
+    </section>
+</div>
+    <section id="contact">
+        <div class="wrapper">
+            <div class="box3">
+                <h1>How can you help?</h1>
+                <p>Donating to charity is a way to contribute to causes that are bigger than ourselves.
+                     For many people, the act of giving is deeply personal.Come to our website whenever you feel to donate,
+                    simply login with your credentials, then fill the donate form, select type of donation and select where 
+                you want to donate.</p>
+                    <button class="btn" onclick="about()">Read More..</button>
+            </div>
+            <div class="box3">
+                <div class="card">
+                <div class="card1">
+                    <img src="img/C.png" alt="">
+                </div>
+                <div class="card1">
+                    <img src="img/F.png" alt="">
+                </div>
+                <div class="card1">
+                    <img src="img/B.png" alt="">
+                </div>
+                <div class="card1">
+                    <img src="img/S.png" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper-1">
+            <div class="footer-center">
+                <h3>Contact Us</h3>
+                <p>Email:info@daandonation.com</p>
+                <p>Phone:+91 00000 00000</p>
+                <p>Message</p>
+            </div>
+            <div class="footer-center">
+                <h3>Quick links</h3>
+                <ul class="list">
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Get Involved</li>
+                    <li>Donate</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-center">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+            <li><a href=""><box-icon type='logo' name='facebook-circle'></box-icon></a></li>
+            <li><a href=""><box-icon type='logo' name='instagram'></box-icon></a></li>
+            <li><a href=""><box-icon type='logo' name='twitter'></box-icon></a></li>
+            <li><a href=""><box-icon type='logo' name='linkedin-square'></box-icon></a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&#169:2024 daandonation . All rights reserved</p>
+        </div>
+    </footer>
+    <script>
+        function login(){
+            window.location.assign("login.html");
+        }
+        function about(){
+            window.location.assign("about.html");
+        }
+    </script>
+</body>
+</html>
